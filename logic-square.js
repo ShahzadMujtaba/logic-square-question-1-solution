@@ -1,5 +1,5 @@
 function findCaliforniaCafes(string) {
-    // You can store the given arrays in 2 internal variables
+    //store the given arrays in 2 internal variables
     const cafes = [
         {
             name: "Bazaar Cafe",
@@ -88,7 +88,7 @@ function findCaliforniaCafes(string) {
             long: "119.41791",
         },
     ];
-    //  Your code goes here
+ 
     //   Search Cafe Name in cafes Array
     let searchCafeName = [];
     searchName = cafes.forEach((cafeNameId) => {
